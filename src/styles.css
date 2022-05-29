@@ -1,0 +1,53 @@
+body {
+  width: 50%;
+  margin: 0 auto !important;
+  padding: 60px 0;
+  font-family: "Poppins", sans-serif !important;
+}
+.card {
+  padding: 20px;
+  border: 3px solid black !important;
+}
+
+input {
+  max-width: 30%;
+  border-radius: 10px;
+  border: 1px solid rgb(66, 66, 66);
+}
+h1 {
+  font-weight: 600 !important;
+  font-size: 66px !important;
+}
+h2 {
+  font-size: 110px !important;
+  text-align: right;
+}
+h3 {
+  font-size: 22px !important;
+}
+.daysandweather p,
+.week p {
+  text-align: center;
+}
+.emoji {
+  font-size: 50px;
+  margin: 0;
+}
+.maxandlowest {
+  font-weight: 200 !important;
+  font-size: 50px !important;
+  text-align: right !important;
+  margin-right: 20px;
+}
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+.small_emoji {
+  font-size: 30px;
+  text-align: center;
+}
+.topcard {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
