@@ -3,7 +3,8 @@ body {
   margin: 0 auto !important;
   padding: 60px 0;
   font-family: "Poppins", sans-serif !important;
-  background: linear-gradient(to top, #ffcbc5 0%, #b3cdf3 100%);
+  /*background: linear-gradient(to top, #ffcbc5 0%, #b3cdf3 100%);*/
+  background: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 170px;
@@ -39,13 +40,14 @@ input {
   color: white;
 }
 h1 {
-  font-weight: 600 !important;
-  font-size: 66px !important;
+  font-weight: normal;
+  font-size: 66px;
   text-shadow: 5px 5px 10px rgba(56, 56, 56, 0.3);
 }
 h2 {
-  font-size: 110px !important;
+  font-size: 110px;
   text-align: right;
+  font-weight: 100px;
   text-shadow: 5px 5px 10px rgba(56, 56, 56, 0.3);
 }
 h3 {
