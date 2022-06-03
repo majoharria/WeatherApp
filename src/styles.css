@@ -3,16 +3,37 @@ body {
   margin: 0 auto !important;
   padding: 60px 0;
   font-family: "Poppins", sans-serif !important;
+  background: linear-gradient(to top, #b3cdf3 0%, #ffcbc5 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 140px;
+  color: white;
 }
 .card {
   padding: 20px;
-  border: 3px solid black !important;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/190/original/tamsin-isaacs-C2zC-CUyYks-unsplash.jpg?1654272999);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.3);
+  border-radius: 15px;
+}
+
+#inputbutton {
+  color: white;
+  background-color: #46346c;
+}
+::placeholder {
+  color: white;
+  padding-left: 5px;
 }
 
 input {
   max-width: 30%;
   border-radius: 10px;
-  border: 1px solid rgb(66, 66, 66);
+  border: none;
+  background-color: #46346c63;
+  color: white;
 }
 h1 {
   font-weight: 600 !important;
