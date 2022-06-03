@@ -3,10 +3,10 @@ body {
   margin: 0 auto !important;
   padding: 60px 0;
   font-family: "Poppins", sans-serif !important;
-  background: linear-gradient(to top, #b3cdf3 0%, #ffcbc5 100%);
+  background: linear-gradient(to top, #ffcbc5 0%, #b3cdf3 100%);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 140px;
+  padding-bottom: 170px;
   color: white;
 }
 .card {
@@ -17,6 +17,9 @@ body {
   background-position: center center;
   box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.3);
   border-radius: 15px;
+}
+p {
+  text-shadow: 5px 5px 10px rgba(56, 56, 56, 0.3);
 }
 
 #inputbutton {
@@ -32,19 +35,22 @@ input {
   max-width: 30%;
   border-radius: 10px;
   border: none;
-  background-color: #46346c63;
+  background-color: #46346c28;
   color: white;
 }
 h1 {
   font-weight: 600 !important;
   font-size: 66px !important;
+  text-shadow: 5px 5px 10px rgba(56, 56, 56, 0.3);
 }
 h2 {
   font-size: 110px !important;
   text-align: right;
+  text-shadow: 5px 5px 10px rgba(56, 56, 56, 0.3);
 }
 h3 {
   font-size: 22px !important;
+  text-shadow: 5px 5px 10px rgba(56, 56, 56, 0.3);
 }
 .daysandweather p,
 .week p {
@@ -61,17 +67,24 @@ h3 {
   margin-right: 20px;
 }
 a {
-  color: black !important;
-  text-decoration: none !important;
+  color: white;
+  text-decoration: none;
 }
 .small_emoji {
   font-size: 30px;
   text-align: center;
 }
 .topcard {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin-bottom: 20px;
 }
 .github {
   color: purple !important;
+}
+#footer {
+  display: block;
+  font-size: 8px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
 }
